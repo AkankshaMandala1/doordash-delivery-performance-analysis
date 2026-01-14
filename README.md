@@ -24,7 +24,18 @@ End-to-end analytics project to analyze DoorDash delivery performance and identi
 - `screenshots/` contains dashboard images for quick viewing
 
 ## Repository Structure
-- data/
-- notebooks/
-- screenshots/
-- tableau/
+- data/         → Final analytical CSVs
+- notebooks/    → Python & DuckDB analysis
+- screenshots/  → Dashboard visuals
+- tableau/      → Tableau workbook
+
+## Key Insights
+- Late delivery rates exceed **99%** in multiple markets
+- Certain cuisines consistently show higher median delivery times
+- Delivery congestion strongly correlates with dasher availability
+- Peak delays occur during lunch & dinner rush hours
+
+## Future Improvements
+- Predictive model for late delivery risk
+- Automated data ingestion pipeline
+- Real-time dashboard integration
